@@ -49,13 +49,18 @@ const config: Config = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+			primaryGreen : "#29a587",
+			backgroundMain: "#F0EBE4",
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		boxShadow: {
+			  circleShadow: "5px 5px rgba(0, 0, 0, 0.2)"
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
